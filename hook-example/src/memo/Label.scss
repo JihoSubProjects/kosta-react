@@ -1,0 +1,29 @@
+label {
+    display:block;
+    margin:30px;
+    input {
+        margin-left:50px;
+    }
+}
+
+input{
+	width:70px;
+	font-size:18px;
+	margin:0 20px;
+}
+
+table {
+	border-collapse:collapse;
+	text-align:left;
+	th,td{
+		text-align: center;
+		border:1px solid #333;
+		padding:10px;
+	}
+	td{
+		cursor:pointer
+	}
+	tr.on td{
+		background:#ddf;
+	}
+}
