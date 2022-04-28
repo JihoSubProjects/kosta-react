@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#root {
+  padding: 30px;
+  width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+table thead td, table tbody tr td {
+  border: 1px solid #333;
+  padding: 20px;
+}
+
+table tbody tr td button, fieldset button {
+  width: 60px;
+  height: 30px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table thead td {
+  font-weight: bold;
+}
+
+fieldset {
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+}
+
+fieldset input {
+  margin-bottom: 20px;
+  padding: 5px 10px;
+}
+
+fieldset button {
+  float: right;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=Comp.css.map */

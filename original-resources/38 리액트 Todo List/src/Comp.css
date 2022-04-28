@@ -1,0 +1,125 @@
+@import url(https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css);
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: #676767;
+  background: #999;
+}
+
+#root {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrap {
+  width: 620px;
+  background: #eee;
+  padding: 20px;
+  border-radius: 10px;
+  min-height: 500px;
+}
+
+fieldset button, .buttons button {
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #999;
+  background: #555;
+  color: #fff;
+  cursor: pointer;
+}
+
+fieldset button:hover, .buttons button:hover {
+  opacity: .8;
+}
+
+fieldset {
+  padding: 20px 0 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+fieldset input {
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  width: 520px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  border: 1px solid #ddd;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.buttons button {
+  width: 40px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+
+.buttons button:first-child {
+  background: #955;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background: #fff;
+}
+
+table thead th, table tbody tr td {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+table thead th {
+  padding: 1px;
+}
+
+table thead th:nth-child(1) {
+  width: 80%;
+}
+
+table tbody tr td:last-child {
+  font-size: 12px;
+}
+
+table tbody tr td input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+table tbody tr td:nth-child(1) {
+  text-align: left;
+}
+
+table tbody tr.selected, table tbody tr:hover {
+  background: #ddd;
+}
+/*# sourceMappingURL=Comp.css.map */

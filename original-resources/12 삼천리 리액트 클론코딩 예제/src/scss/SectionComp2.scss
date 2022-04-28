@@ -1,0 +1,279 @@
+#s2 {
+	width: 100%;
+}
+.main_1 {
+	width: 980px;
+	margin: 0 auto;
+}
+.m_1_1 {
+	position: relative;
+	width: 240px;
+	height: 250px;
+	overflow: hidden;
+	float: left;
+	li {
+		float: left;
+    a{
+      position: absolute;
+      z-index: 1;
+    }
+	}
+}
+.m_b {
+	position: absolute;
+	z-index: 3;
+	margin: 0 1px;
+	width: 13px;
+	height: 12px;
+	display: block;
+	top: 40px;
+}
+
+%btn2{
+	background: url(../img/btn_off_2.gif);
+	&:focus {
+		background: url(../img/btn_on_2.gif);
+	}
+	&:active {
+		background: url(../img/btn_on_2.gif);
+	}
+  z-index:2 !important;
+}
+
+.m_1_1_1b {
+	left: 10px;
+  @extend %btn2;
+}
+.m_1_1_2b {
+  +a{
+    left:300px;
+    transition:left .5s;
+  }
+	left: 25px;
+  @extend %btn2;
+	&:focus+a {
+
+			left: 0px;
+
+	}
+	&:active+a {
+
+			left: 0px;
+
+	}
+}
+.m_1_1_3b {
+	left: 40px;
+	background: url(../img/btn_stop_2.gif);
+	&:focus {
+		background: url(../img/btn_next_1.gif) no-repeat;
+	}
+	&:active {
+		background: url(../img/btn_next_1.gif) no-repeat;
+	}
+}
+
+.main1_1cp {
+	a {
+		margin: 0 1px;
+		float: left;
+		display: block;
+		width: 13px;
+		height: 12px;
+	}
+}
+.m_1_2 {
+	position: relative;
+	width: 500px;
+	background: #0697e1;
+	padding: 40px 30px 0;
+	box-sizing: border-box;
+	float: left;
+	height: 250px;
+	z-index: 1;
+	a {
+		color: #fff;
+		&:last-child {
+			display: none;
+			width: 440px;
+			height: 135px;
+			background: #0697e1;
+			z-index: 20;
+			position: relative;
+			transition: display .5s;
+		}
+	}
+	li {
+		&:nth-child(2) {
+			a {
+				&:last-child {
+					display: block;
+				}
+				&:first-child {
+					right: 127px;
+				}
+			}
+		}
+		width: 440px;
+		height: 160px;
+		position: absolute;
+		&:first-child {
+			width: 480px;
+			height: 27px;
+			margin-bottom: 27px;
+			position: static;
+		}
+		a {
+			&:first-child {
+				display: block;
+				width: 13px;
+				height: 12px;
+				background: url(../img/btn3.gif);
+				position: absolute;
+				top: -53px;
+			}
+		}
+    @for $i from 2 through 8{
+      &:nth-child(#{$i}) {
+        a {
+          &:first-child {
+            &:focus {
+              background: url(../img/btn3_on.gif);
+            }
+            &:active {
+              background: url(../img/btn3_on.gif);
+            }
+            &:focus+a {
+              display: block;
+            }
+            &:active+a {
+              display: block;
+            }
+          }
+        }
+      }
+    }
+		&:nth-child(3) {
+			a {
+				&:first-child {
+					right: 111px;
+				}
+			}
+		}
+		&:nth-child(4) {
+			a {
+				&:first-child {
+					right: 95px;
+				}
+			}
+		}
+		&:nth-child(5) {
+			a {
+				&:first-child {
+					right: 79px;
+				}
+			}
+		}
+		&:nth-child(6) {
+			a {
+				&:first-child {
+					right: 63px;
+				}
+			}
+		}
+		&:nth-child(7) {
+			a {
+				&:first-child {
+					right: 47px;
+				}
+			}
+		}
+		&:nth-child(8) {
+			a {
+				&:first-child {
+					right: 31px;
+				}
+			}
+		}
+		a.m_1_2_n {
+			font-weight: bold;
+			margin-bottom: 10px;
+			width: 200px;
+			background: none;
+			position: static;
+			display: block;
+		}
+	}
+	p {
+		&:first-child {
+			font-size: 20px;
+			line-height: 28px;
+		}
+		&:last-child {
+			font-weight: bold;
+			font-size: 14px;
+		}
+	}
+	img {
+		width: 200px;
+		height: 133px;
+		float: right;
+	}
+}
+.m_1_2_left {
+	float: left;
+	width: 230px;
+	height: 160px;
+	p {
+		&:last-child {
+			position: absolute;
+			bottom: 30px;
+		}
+	}
+}
+.m_1_3 {
+	width: 240px;
+	height: 250px;
+	background: #007cbc;
+	float: left;
+	box-sizing: border-box;
+	padding: 32px 5px 0 30px;
+	position: relative;
+	z-index: 1;
+	a {
+		display: block;
+		color: #fff;
+		font-size: 18px;
+		line-height: 26px;
+		&:first-child {
+			font-size: 16px;
+			font-weight: bold;
+			float: left;
+			margin-bottom: 35px;
+		}
+		&:last-child {
+			margin-top: 15px;
+		}
+	}
+}
+.m_plus {
+	float: right;
+	margin-right: 10px;
+}
+.main_bg_1 {
+	width: 100%;
+	position: absolute;
+	left: 0;
+}
+.main_bg_1_1 {
+	width: 50%;
+	float: left;
+	height: 250px;
+  z-index: -1;
+}
+.main_bg_1_2 {
+	width: 50%;
+	float: right;
+	background: #007cbc;
+	height: 250px;
+}

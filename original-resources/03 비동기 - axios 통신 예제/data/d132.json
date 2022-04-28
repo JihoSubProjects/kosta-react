@@ -1,0 +1,22 @@
+[{
+  "name": "Jarrid Grzelczak",
+  "image": 3,
+  "buseo": "2팀",
+  "jang": true,
+  "phone": "012-2893-2390",
+  "work": "M하고 N하기"
+},{
+  "name": "Mela Thraves",
+  "image": 4,
+  "buseo": "2팀",
+  "jang": false,
+  "phone": "012-2031-4597",
+  "work": "U하고 V하기"
+}, {
+  "name": "Jeramie Stanion",
+  "image": 8,
+  "buseo": "2팀",
+  "jang": false,
+  "phone": "012-3948-2393",
+  "work": "W하고 X하기"
+}]

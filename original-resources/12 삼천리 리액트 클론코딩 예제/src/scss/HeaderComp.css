@@ -1,0 +1,137 @@
+header {
+  width: 980px;
+  margin: 0 auto;
+  padding: 10px 0 0;
+}
+
+.h_logo {
+  float: left;
+  width: 160px;
+  margin-top: 20px;
+}
+
+.h_right1 {
+  float: right;
+  width: 450px;
+  font-size: 13px;
+  margin-right: 20px;
+}
+
+.h_right1 a {
+  color: #666666;
+}
+
+.h_right1 li {
+  float: left;
+  padding: 0 10px;
+  background: url(../img/bg_utilbar.gif) 100% 50% no-repeat;
+  margin-top: 5px;
+}
+
+.h_right1 li:last-child {
+  background: none;
+}
+
+.h_right1 form {
+  position: relative;
+  width: 160px;
+  float: left;
+}
+
+.h_s_tbox {
+  background: #EFF4F7;
+  border: none;
+  margin-left: 30px;
+  width: 150px;
+  height: 26px;
+  padding: 5px 0 0 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.h_s_img {
+  position: absolute;
+  right: -5px;
+  top: 6px;
+  outline: none;
+}
+
+.h_right2 {
+  float: right;
+  width: 800px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.h_right2 > ul > li {
+  float: left;
+  padding: 10px 25px 0;
+  text-align: center;
+}
+
+.h_right2 > ul > li:nth-child(6) {
+  padding: 10px 10px 0 30px;
+  background: url(../img/bg_gnbbar.gif) no-repeat 0% 25%;
+}
+
+.h_right2 > ul > li:nth-child(6) > a {
+  color: #197dba;
+}
+
+.h_right2 > ul > li:last-child {
+  padding: 10px 0 0px 20px;
+}
+
+.h_right2 > ul > li:last-child a {
+  color: #197dba;
+}
+
+.h_right2 > ul > li > a {
+  display: block;
+  height: 45px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.h_right2 > ul > li:hover > a {
+  border-bottom: 5px solid #197dba;
+  color: #197dba;
+}
+
+.h_right2 > ul > li ul li {
+  font-size: 14px;
+  font-weight: normal;
+  text-align: left;
+}
+
+.h_right2 ul li ul {
+  position: absolute;
+  z-index: 10;
+  padding-top: 10px;
+  margin-left: -20px;
+  background: #fff;
+  width: 180px;
+  border: 1px solid #aaa;
+  display: none;
+}
+
+.h_right2 ul li ul li a {
+  display: block;
+  width: 180px;
+  padding: 10px 0 12px 20px;
+  color: #555;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  letter-spacing: -1px;
+}
+
+.h_right2 ul li ul li:hover a {
+  color: #fff;
+  background: #007cbc;
+}
+
+.h_right2 ul li:hover ul {
+  display: block;
+}
+/*# sourceMappingURL=HeaderComp.css.map */

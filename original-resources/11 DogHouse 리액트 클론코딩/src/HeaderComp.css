@@ -1,0 +1,61 @@
+@charset "UTF-8";
+header {
+  height: 200px;
+  background: #f46075 url(./img/nav2.png) no-repeat 90% 50%;
+  border-top: 1px solid transparent;
+  /*padding-top:1px; 마진병합현상방지*/
+}
+
+header h1 {
+  /* float:left; -마진병합현상방지*/
+  color: #fff;
+  margin-left: 70px;
+  margin-top: 50px;
+}
+
+nav {
+  height: 65px;
+  background-color: #ddd;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul > li {
+  float: left;
+  margin-top: 10px;
+  position: relative;
+}
+
+nav ul > li a {
+  display: block;
+  width: 225px;
+  height: 40px;
+  line-height: 40px;
+  /* border:1px solid #333; */
+  /* box-sizing:border-box; */
+  /*border , padding 포함 225px*/
+  color: #333;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav ul > li a:hover {
+  background: beige;
+}
+
+nav ul > li ul {
+  position: absolute;
+  background: #fff;
+  height: 0px;
+  -webkit-transition: height .5s;
+  transition: height .5s;
+  overflow: hidden;
+  background: #ddd;
+}
+
+nav ul > li:hover ul {
+  height: 170px;
+}
+/*# sourceMappingURL=HeaderComp.css.map */

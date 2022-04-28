@@ -1,0 +1,12 @@
+
+@font-face { 
+    font-family: 'notosanskr'; 
+    font-style: normal;
+    src:url( 'fonts/NotoSansKR-Medium.otf' );
+}
+
+*{margin:0;padding:0}
+a{display:block;color:#555;text-decoration:none;}
+.cf::after{display:block;content:'';clear:both}
+ul{list-style:none}
+body{position:relative;background:#fff;color:#555;font-family: 'notosanskr', 맑은고딕, Malgun Gothic, dotum, gulim, sans-serif}

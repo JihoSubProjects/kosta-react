@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Olympie MacFadyen",
+    "image": 2,
+    "buseo": "3팀",
+    "jang": true,
+    "phone": "012-2394-7303",
+    "work": "E하고 F하기"
+  }, {
+    "name": "Sterne Frost",
+    "image": 8,
+    "buseo": "3팀",
+    "jang": false,
+    "phone": "012-3905-8309",
+    "work": "O하고 P하기"
+  }, {
+    "name": "Odele Pogosian",
+    "image": 10,
+    "buseo": "3팀",
+    "jang": false,
+    "phone": "012-2380-9434",
+    "work": "Q하고 R하기"
+  }
+]

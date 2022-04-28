@@ -1,0 +1,171 @@
+.asideBottomWrap {
+	height: 50px;
+
+	p {
+		margin-left: 10px;
+	}
+}
+
+.asideBottomWrap>p {
+	float: left;
+	width: 200px;
+}
+
+a {
+	display: inline-block;
+}
+
+label {
+	margin-right: 13.6px;
+	float: right;
+	font-size: 15px;
+	vertical-align: middle;
+	position: relative;
+	transition: opacity .2s;
+	cursor: pointer;
+
+	&:hover {
+		opacity: .8;
+	}
+
+	input[type="checkbox"] {
+		position: relative;
+		top: 2px;
+	}
+}
+
+.tableSite {
+	padding-top: 20px
+}
+
+.tel {
+	color: #278cff;
+}
+
+.buseo {
+	// color:#777;
+	text-decoration: none;
+}
+
+
+
+
+.pictureblock {
+	width: 200px;
+	height: 365px;
+	position: relative;
+	margin-right: 14px;
+	margin-bottom: 27px;
+	float: left;
+	box-sizing: border-box;
+	cursor: pointer;
+	font-size: 17px;
+	border-radius: 10px;
+	transition: opacity .2s;
+
+	&:hover {
+		opacity: .7;
+	}
+
+	&.jang {
+
+		// background:#eee;
+		.titlebox {
+			display: block;
+			width: 100px;
+			height: 45px;
+			line-height: 50px;
+			position: absolute;
+			top: 50%;
+			right: 0;
+			z-index: 25;
+			color: #fff;
+			text-shadow: 2px 2px #333, 2px 2px #333;
+			opacity: .7;
+			text-align: center;
+			font-size: 25px;
+			background: url(../img/patternModal.jpg);
+			background-size: 210%;
+		}
+	}
+
+	.picture {
+		width: 90%;
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+		border-radius: 10px;
+		margin-top: 10px;
+	}
+
+	.cf {
+		padding-top: 5px;
+
+		h3 {
+			padding-left: 13px;
+			float: left;
+			color: #333;
+			letter-spacing: 5px;
+			font-size: 25px
+		}
+
+		p {
+			float: left;
+			width: 40px;
+			padding-top: 9px;
+			letter-spacing: 2px;
+			padding-left: 12px;
+			color: #7d9ec5 !important
+		}
+
+
+		.badge {
+			background: url(../img/badge.png);
+			width: 13px;
+			height: 15px;
+			margin-top: 15px;
+			// margin-left:3px;
+			background-size: cover;
+			float: left;
+		}
+	}
+
+	.titlebox {
+		display: 'none';
+	}
+
+	// .picture~p{
+	//     padding-left:13px;
+	//     font-weight:bold;
+	//     padding-top:10px;
+	//     font-size:25px;
+	//     line-height:25px;
+	//     color:#333;
+	//     letter-spacing: 5px;
+	// }
+	>.textbox {
+		padding-top: 5px;
+		padding-left: 13px;
+		padding-right: 13px;
+
+		p:first-child {
+			color: #777;
+		}
+
+		div {
+			padding-top: 12px;
+			box-sizing: border-box;
+			overflow: hidden;
+			word-wrap: break-word;
+			text-overflow: ellipsis;
+			height: 85px;
+			text-align: left;
+			line-height: 1.6;
+			font-size: 15px;
+			color: #777;
+			display: -webkit-box;
+			-webkit-line-clamp: 3;
+			-webkit-box-orient: vertical;
+		}
+	}
+}

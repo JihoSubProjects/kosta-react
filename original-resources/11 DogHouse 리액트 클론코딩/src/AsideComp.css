@@ -1,0 +1,17 @@
+aside {
+  width: 250px;
+  height: 500px;
+  background-color: #876547;
+  float: left;
+  text-align: center;
+}
+
+aside h2 {
+  color: #fff;
+  margin: 10px 0;
+}
+
+aside img {
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=AsideComp.css.map */

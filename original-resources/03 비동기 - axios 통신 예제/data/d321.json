@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Ahmed Brotherton",
+    "image": 3,
+    "buseo": "1팀",
+    "jang": true,
+    "phone": "012-2903-8120",
+    "work": "A하고 B하기"
+  }, {
+    "name": "Earl Tennock",
+    "image": 4,
+    "buseo": "1팀",
+    "jang": false,
+    "phone": "012-2384-3903",
+    "work": "G하고 H하기"
+  }, {
+    "name": "Galven Melliard",
+    "image": 5,
+    "buseo": "1팀",
+    "jang": false,
+    "phone": "012-3849-3033",
+    "work": "I하고 J하기"
+  }
+]

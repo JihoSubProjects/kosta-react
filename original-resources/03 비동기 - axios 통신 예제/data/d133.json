@@ -1,0 +1,22 @@
+[{
+  "name": "Trueman Bernardini",
+  "image": 6,
+  "buseo": "3팀",
+  "jang": true,
+  "phone": "012-3790-1230",
+  "work": "O하고 P하기"
+},{
+  "name": "Marga Valenta",
+  "image": 10,
+  "buseo": "3팀",
+  "jang": false,
+  "phone": "012-0239-2398",
+  "work": "Y하고 Z하기"
+}, {
+  "name": "Consolata Flannery",
+  "image": 12,
+  "buseo": "3팀",
+  "jang": false,
+  "phone": "012-3498-1093",
+  "work": "1하고 1하기"
+}]

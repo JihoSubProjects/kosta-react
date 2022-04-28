@@ -1,0 +1,22 @@
+[{
+    "name": "Mariellen Phetteplace",
+    "image": 1,
+    "buseo": "2팀",
+    "jang": true,
+    "phone": "012-2034-8903",
+    "work": "C하고 D하기"
+  },{
+    "name": "Sawyer Trevaskiss",
+    "image": 6,
+    "buseo": "2팀",
+    "jang": false,
+    "phone": "012-2903-8903",
+    "work": "K하고 L하기"
+  }, {
+    "name": "Salomo Mirralls",
+    "image": 7,
+    "buseo": "2팀",
+    "jang": false,
+    "phone": "012-9052-3489",
+    "work": "M하고 N하기"
+  }]

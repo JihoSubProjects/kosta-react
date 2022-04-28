@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,KAAK,CAAC;EACJ,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,OAAO;EACzB,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,MAAM;CAUnB;;AAfD,AAOE,KAPG,CAOH,EAAE,CAAC;EACD,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,MAAM;CACf;;AAVH,AAYE,KAZG,CAYH,GAAG,CAAC;EACF,aAAa,EAAE,IAAI;CACpB",
+    "sources": [
+        "AsideComp.scss"
+    ],
+    "names": [],
+    "file": "AsideComp.css"
+}

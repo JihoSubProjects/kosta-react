@@ -1,0 +1,39 @@
+#s4 {
+	width: 980px;
+	height: 140px;
+	margin: 0 auto;
+	li {
+		float: left;
+		padding: 40px 0 40px 20px;
+		box-sizing: border-box;
+		margin-right: 5px;
+		&:first-child {
+			padding-left: 0;
+		}
+		a {
+			float: left;
+			p {
+				&:first-child {
+					font-size: 16px;
+					font-weight: bold;
+					margin-bottom: 10px;
+				}
+			}
+		}
+		img {
+			float: right;
+			margin: 5px 0 0 4px;
+		}
+		&:last-child {
+			img {
+				margin-top: 20px;
+			}
+		}
+	}
+}
+.phonenum {
+	width: 120px;
+	height: 35px;
+	background: url(../img/txt_etc_1.gif) no-repeat;
+	margin-top: 5px;
+}

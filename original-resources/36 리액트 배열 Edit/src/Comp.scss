@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display:flex;
+  justify-content: center;
+}
+
+#root{
+  padding:30px;
+  width:800px;
+  display:flex;
+  justify-content: center;
+}
+
+%tdStyle{
+  border:1px solid #333;
+  padding:20px;
+}
+
+%buttonStyle{
+  width:60px;
+  height:30px;
+}
+
+table{
+  border-collapse: collapse;
+  thead{
+    th{
+      @extend %tdStyle;
+    }
+  }
+  tbody{
+    tr{
+      td{
+        @extend %tdStyle;
+        button{
+          @extend %buttonStyle
+        }
+      }
+    }
+  }
+}
+
+fieldset{
+  padding:20px;
+  box-sizing: border-box;
+  position:relative;
+  input{
+    margin-bottom:20px;
+    padding:5px 10px;
+  }
+  button{
+    @extend %buttonStyle;
+    float:right;
+    margin-top:10px;
+  }
+}

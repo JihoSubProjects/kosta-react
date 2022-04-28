@@ -1,0 +1,22 @@
+[{
+  "name": "Linnea Janic",
+  "image": 12,
+  "buseo": "1팀",
+  "jang": true,
+  "phone": "012-3208-4093",
+  "work": "S하고 T하기"
+},{
+  "name": "Sheri Beavers",
+  "image": 13,
+  "buseo": "1팀",
+  "jang": false,
+  "phone": "012-3284-0839",
+  "work": "Y하고 Z하기"
+}, {
+  "name": "Aleda Genge",
+  "image": 14,
+  "buseo": "1팀",
+  "jang": false,
+  "phone": "012-1290-2039",
+  "work": "A하고 B하기"
+}]

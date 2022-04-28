@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Willem Boaler",
+    "image": 11,
+    "buseo": "3팀",
+    "jang": true,
+    "phone": "012-2384-9004",
+    "work": "W하고 X하기"
+  },{
+    "name": "Hyman Glozman",
+    "image": 3,
+    "buseo": "3팀",
+    "jang": false,
+    "phone": "012-3290-9344",
+    "work": "G하고 H하기"
+  }, {
+    "name": "Emiline Guymer",
+    "image": 5,
+    "buseo": "3팀",
+    "jang": false,
+    "phone": "012-2380-9434",
+    "work": "I하고 J하기"
+  }
+]

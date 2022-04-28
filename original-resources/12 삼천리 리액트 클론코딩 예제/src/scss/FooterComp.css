@@ -1,0 +1,86 @@
+footer {
+  width: 100%;
+  height: 151px;
+  background: #495860;
+  margin: 10px 0 0;
+}
+
+.ft_container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.ft_container a {
+  color: #A0AAB0;
+}
+
+.ft_logo {
+  width: 121px;
+  height: 151px;
+  float: left;
+  line-height: 100px;
+}
+
+.ft_ul1 {
+  float: right;
+  width: 850px;
+  margin: 10px 0 0;
+}
+
+.ft_ul1 li {
+  float: left;
+  padding: 20px 10px 10px;
+  letter-spacing: -1px;
+  background: url(../img/bg_footer_2.gif) 100% 50% no-repeat;
+}
+
+.ft_ul1 li:first-child a {
+  color: #fff;
+}
+
+.ft_ul1 li:nth-child(4) {
+  background: none;
+}
+
+.ft_ul1 li:last-child {
+  padding: 5px 0 5px;
+  float: right;
+  background: none;
+}
+
+.ft_select {
+  width: 182px;
+  height: 30px;
+  padding: 6px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  float: left;
+  margin: 10px 5px 0 0;
+  color: #444;
+  outline: none;
+}
+
+.confirm3 {
+  margin-top: 10px;
+  outline: none;
+}
+
+.address {
+  float: left;
+  width: 315px;
+  color: #A0AAB0;
+  font-style: normal;
+  font-size: 12.5px;
+  padding-left: 20px;
+  line-height: 20px;
+}
+
+.ft_ul2 {
+  float: right;
+}
+
+.ft_ul2 li {
+  float: left;
+  margin-right: 20px;
+}
+/*# sourceMappingURL=FooterComp.css.map */

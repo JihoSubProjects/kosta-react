@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <ul>
+    <li>항목1</li>
+    <li>항목2</li>
+    <li>항목3</li>
+    <li>항목4</li>
+    <li>항목5</li>
+  </ul>
+  <script>
+    const ul = document.querySelector('ul');
+    ul.insertAdjacentHTML('beforebegin','<p>beforebegin으로 집어넣었습니다</p>')
+    ul.insertAdjacentHTML('afterbegin','<li>afterbegin으로 집어넣었습니다</li>')
+    ul.insertAdjacentHTML('beforeend','<li>beforeend로 집어넣었습니다</li>')
+    ul.insertAdjacentHTML('afterend','<p>afterend로 집어넣었습니다</p>')
+  </script>
+</body>
+</html>

@@ -1,0 +1,376 @@
+#s2 {
+  width: 100%;
+}
+
+.main_1 {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.m_1_1 {
+  position: relative;
+  width: 240px;
+  height: 250px;
+  overflow: hidden;
+  float: left;
+}
+
+.m_1_1 li {
+  float: left;
+}
+
+.m_1_1 li a {
+  position: absolute;
+  z-index: 1;
+}
+
+.m_b {
+  position: absolute;
+  z-index: 3;
+  margin: 0 1px;
+  width: 13px;
+  height: 12px;
+  display: block;
+  top: 40px;
+}
+
+.m_1_1_1b, .m_1_1_2b {
+  background: url(../img/btn_off_2.gif);
+  z-index: 2 !important;
+}
+
+.m_1_1_1b:focus, .m_1_1_2b:focus {
+  background: url(../img/btn_on_2.gif);
+}
+
+.m_1_1_1b:active, .m_1_1_2b:active {
+  background: url(../img/btn_on_2.gif);
+}
+
+.m_1_1_1b {
+  left: 10px;
+}
+
+.m_1_1_2b {
+  left: 25px;
+}
+
+.m_1_1_2b + a {
+  left: 300px;
+  -webkit-transition: left .5s;
+  transition: left .5s;
+}
+
+.m_1_1_2b:focus + a {
+  left: 0px;
+}
+
+.m_1_1_2b:active + a {
+  left: 0px;
+}
+
+.m_1_1_3b {
+  left: 40px;
+  background: url(../img/btn_stop_2.gif);
+}
+
+.m_1_1_3b:focus {
+  background: url(../img/btn_next_1.gif) no-repeat;
+}
+
+.m_1_1_3b:active {
+  background: url(../img/btn_next_1.gif) no-repeat;
+}
+
+.main1_1cp a {
+  margin: 0 1px;
+  float: left;
+  display: block;
+  width: 13px;
+  height: 12px;
+}
+
+.m_1_2 {
+  position: relative;
+  width: 500px;
+  background: #0697e1;
+  padding: 40px 30px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  float: left;
+  height: 250px;
+  z-index: 1;
+}
+
+.m_1_2 a {
+  color: #fff;
+}
+
+.m_1_2 a:last-child {
+  display: none;
+  width: 440px;
+  height: 135px;
+  background: #0697e1;
+  z-index: 20;
+  position: relative;
+  -webkit-transition: display .5s;
+  transition: display .5s;
+}
+
+.m_1_2 li {
+  width: 440px;
+  height: 160px;
+  position: absolute;
+}
+
+.m_1_2 li:nth-child(2) a:last-child {
+  display: block;
+}
+
+.m_1_2 li:nth-child(2) a:first-child {
+  right: 127px;
+}
+
+.m_1_2 li:first-child {
+  width: 480px;
+  height: 27px;
+  margin-bottom: 27px;
+  position: static;
+}
+
+.m_1_2 li a:first-child {
+  display: block;
+  width: 13px;
+  height: 12px;
+  background: url(../img/btn3.gif);
+  position: absolute;
+  top: -53px;
+}
+
+.m_1_2 li:nth-child(2) a:first-child:focus {
+  background: url(../img/btn3_on.gif);
+}
+
+.m_1_2 li:nth-child(2) a:first-child:active {
+  background: url(../img/btn3_on.gif);
+}
+
+.m_1_2 li:nth-child(2) a:first-child:focus + a {
+  display: block;
+}
+
+.m_1_2 li:nth-child(2) a:first-child:active + a {
+  display: block;
+}
+
+.m_1_2 li:nth-child(3) a:first-child:focus {
+  background: url(../img/btn3_on.gif);
+}
+
+.m_1_2 li:nth-child(3) a:first-child:active {
+  background: url(../img/btn3_on.gif);
+}
+
+.m_1_2 li:nth-child(3) a:first-child:focus + a {
+  display: block;
+}
+
+.m_1_2 li:nth-child(3) a:first-child:active + a {
+  display: block;
+}
+
+.m_1_2 li:nth-child(4) a:first-child:focus {
+  background: url(../img/btn3_on.gif);
+}
+
+.m_1_2 li:nth-child(4) a:first-child:active {
+  background: url(../img/btn3_on.gif);
+}
+
+.m_1_2 li:nth-child(4) a:first-child:focus + a {
+  display: block;
+}
+
+.m_1_2 li:nth-child(4) a:first-child:active + a {
+  display: block;
+}
+
+.m_1_2 li:nth-child(5) a:first-child:focus {
+  background: url(../img/btn3_on.gif);
+}
+
+.m_1_2 li:nth-child(5) a:first-child:active {
+  background: url(../img/btn3_on.gif);
+}
+
+.m_1_2 li:nth-child(5) a:first-child:focus + a {
+  display: block;
+}
+
+.m_1_2 li:nth-child(5) a:first-child:active + a {
+  display: block;
+}
+
+.m_1_2 li:nth-child(6) a:first-child:focus {
+  background: url(../img/btn3_on.gif);
+}
+
+.m_1_2 li:nth-child(6) a:first-child:active {
+  background: url(../img/btn3_on.gif);
+}
+
+.m_1_2 li:nth-child(6) a:first-child:focus + a {
+  display: block;
+}
+
+.m_1_2 li:nth-child(6) a:first-child:active + a {
+  display: block;
+}
+
+.m_1_2 li:nth-child(7) a:first-child:focus {
+  background: url(../img/btn3_on.gif);
+}
+
+.m_1_2 li:nth-child(7) a:first-child:active {
+  background: url(../img/btn3_on.gif);
+}
+
+.m_1_2 li:nth-child(7) a:first-child:focus + a {
+  display: block;
+}
+
+.m_1_2 li:nth-child(7) a:first-child:active + a {
+  display: block;
+}
+
+.m_1_2 li:nth-child(8) a:first-child:focus {
+  background: url(../img/btn3_on.gif);
+}
+
+.m_1_2 li:nth-child(8) a:first-child:active {
+  background: url(../img/btn3_on.gif);
+}
+
+.m_1_2 li:nth-child(8) a:first-child:focus + a {
+  display: block;
+}
+
+.m_1_2 li:nth-child(8) a:first-child:active + a {
+  display: block;
+}
+
+.m_1_2 li:nth-child(3) a:first-child {
+  right: 111px;
+}
+
+.m_1_2 li:nth-child(4) a:first-child {
+  right: 95px;
+}
+
+.m_1_2 li:nth-child(5) a:first-child {
+  right: 79px;
+}
+
+.m_1_2 li:nth-child(6) a:first-child {
+  right: 63px;
+}
+
+.m_1_2 li:nth-child(7) a:first-child {
+  right: 47px;
+}
+
+.m_1_2 li:nth-child(8) a:first-child {
+  right: 31px;
+}
+
+.m_1_2 li a.m_1_2_n {
+  font-weight: bold;
+  margin-bottom: 10px;
+  width: 200px;
+  background: none;
+  position: static;
+  display: block;
+}
+
+.m_1_2 p:first-child {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.m_1_2 p:last-child {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.m_1_2 img {
+  width: 200px;
+  height: 133px;
+  float: right;
+}
+
+.m_1_2_left {
+  float: left;
+  width: 230px;
+  height: 160px;
+}
+
+.m_1_2_left p:last-child {
+  position: absolute;
+  bottom: 30px;
+}
+
+.m_1_3 {
+  width: 240px;
+  height: 250px;
+  background: #007cbc;
+  float: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 32px 5px 0 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.m_1_3 a {
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.m_1_3 a:first-child {
+  font-size: 16px;
+  font-weight: bold;
+  float: left;
+  margin-bottom: 35px;
+}
+
+.m_1_3 a:last-child {
+  margin-top: 15px;
+}
+
+.m_plus {
+  float: right;
+  margin-right: 10px;
+}
+
+.main_bg_1 {
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.main_bg_1_1 {
+  width: 50%;
+  float: left;
+  height: 250px;
+  z-index: -1;
+}
+
+.main_bg_1_2 {
+  width: 50%;
+  float: right;
+  background: #007cbc;
+  height: 250px;
+}
+/*# sourceMappingURL=SectionComp2.css.map */

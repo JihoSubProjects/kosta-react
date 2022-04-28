@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "./static/css/main.18f47b1d.chunk.css",
+    "main.js": "./static/js/main.faaea571.chunk.js",
+    "main.js.map": "./static/js/main.faaea571.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.5c193b9f.js",
+    "runtime-main.js.map": "./static/js/runtime-main.5c193b9f.js.map",
+    "static/js/2.b9fc70f4.chunk.js": "./static/js/2.b9fc70f4.chunk.js",
+    "static/js/2.b9fc70f4.chunk.js.map": "./static/js/2.b9fc70f4.chunk.js.map",
+    "static/js/3.6bb4de03.chunk.js": "./static/js/3.6bb4de03.chunk.js",
+    "static/js/3.6bb4de03.chunk.js.map": "./static/js/3.6bb4de03.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.18f47b1d.chunk.css.map": "./static/css/main.18f47b1d.chunk.css.map",
+    "static/js/2.b9fc70f4.chunk.js.LICENSE.txt": "./static/js/2.b9fc70f4.chunk.js.LICENSE.txt",
+    "static/media/Container.scss": "./static/media/fractals-environment-1728589_1920.8e24ea96.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c193b9f.js",
+    "static/js/2.b9fc70f4.chunk.js",
+    "static/css/main.18f47b1d.chunk.css",
+    "static/js/main.faaea571.chunk.js"
+  ]
+}

@@ -1,0 +1,71 @@
+#s3 {
+	width: 100%;
+	height: 250px;
+	background: #F0F3F4;
+}
+.main_2 {
+	width: 980px;
+	margin: 0 auto;
+}
+.m_2_n {
+	display: block;
+	width: 240px;
+	height: 250px;
+	padding: 30px 0 0 10px;
+	box-sizing: border-box;
+	float: left;
+	p {
+		&:first-child {
+			font-size: 14px;
+			margin: 10px 0 22px;
+			line-height: 18px;
+		}
+		&:last-child {
+			font-size: 22px;
+			font-weight: bold;
+		}
+	}
+	&:hover {
+		color: #007CBC;
+	}
+}
+.m_2_1 {
+	background: url(../img/bg_stroy_1.jpg);
+}
+.m_2_2 {
+	background: #F0F3F4;
+	a {
+		color: #333;
+		&:last-child {
+			background: #F0F3F4;
+		}
+	}
+	li {
+		a {
+			&:first-child {
+				background: url(../img/btn_off_1.gif);
+			}
+		}
+		a.m_1_2_n {
+			background: none;
+		}
+    @for $i from 2 through 8 {
+      &:nth-child(#{$i}) {
+        a {
+          &:first-child {
+            &:focus {
+              background: url(../img/btn_on_1.gif);
+            }
+            &:active {
+              background: url(../img/btn_on_1.gif);
+            }
+          }
+        }
+      }
+    }
+	}
+}
+.m_2_3 {
+	background: url(../img/bg_report_1.jpg);
+	padding-left: 30px;
+}

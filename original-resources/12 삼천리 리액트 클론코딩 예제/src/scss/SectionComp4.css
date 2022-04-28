@@ -1,0 +1,44 @@
+#s4 {
+  width: 980px;
+  height: 140px;
+  margin: 0 auto;
+}
+
+#s4 li {
+  float: left;
+  padding: 40px 0 40px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: 5px;
+}
+
+#s4 li:first-child {
+  padding-left: 0;
+}
+
+#s4 li a {
+  float: left;
+}
+
+#s4 li a p:first-child {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#s4 li img {
+  float: right;
+  margin: 5px 0 0 4px;
+}
+
+#s4 li:last-child img {
+  margin-top: 20px;
+}
+
+.phonenum {
+  width: 120px;
+  height: 35px;
+  background: url(../img/txt_etc_1.gif) no-repeat;
+  margin-top: 5px;
+}
+/*# sourceMappingURL=SectionComp4.css.map */

@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Kay Bille",
+    "image": 1,
+    "buseo": "1팀",
+    "jang": true,
+    "phone": "012-2183-2382",
+    "work": "K하고 L하기"
+  }, {
+    "name": "Osmund Kemell",
+    "image": 7,
+    "buseo": "1팀",
+    "jang": false,
+    "phone": "012-3480-0324",
+    "work": "Q하고 R하기"
+  }, {
+    "name": "Esme Erbain",
+    "image": 2,
+    "buseo": "1팀",
+    "jang": false,
+    "phone": "012-3480-3209",
+    "work": "S하고 T하기"
+  }
+]

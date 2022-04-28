@@ -1,0 +1,216 @@
+[
+  {
+    "name": "Rebeka Chrishop",
+    "image": 4,
+    "buseo": "1과",
+    "gwajang":true,
+    "jang": true,
+    "phone": "012-2903-8120",
+    "work": "A하고 B하기"
+  }, {
+    "name": "Linnea Janic",
+    "image": 12,
+    "buseo": "1팀",
+    "jang": true,
+    "phone": "012-3208-4093",
+    "work": "S하고 T하기"
+  }, {
+    "name": "Clemmy Daleman",
+    "image": 9,
+    "buseo": "2팀",
+    "jang": true,
+    "phone": "012-2309-4890",
+    "work": "U하고 V하기"
+  }, {
+    "name": "Willem Boaler",
+    "image": 11,
+    "buseo": "3팀",
+    "jang": true,
+    "phone": "012-2384-9004",
+    "work": "W하고 X하기"
+  }, {
+    "name": "Sheri Beavers",
+    "image": 13,
+    "buseo": "1팀",
+    "jang": false,
+    "phone": "012-3284-0839",
+    "work": "Y하고 Z하기"
+  }, {
+    "name": "Aleda Genge",
+    "image": 14,
+    "buseo": "1팀",
+    "jang": false,
+    "phone": "012-1290-2039",
+    "work": "A하고 B하기"
+  }, {
+    "name": "Abbey Krikorian",
+    "image": 15,
+    "buseo": "2팀",
+    "jang": false,
+    "phone": "012-2903-8903",
+    "work": "C하고 D하기"
+  }, {
+    "name": "Tait Engledow",
+    "image": 16,
+    "buseo": "2팀",
+    "jang": false,
+    "phone": "012-2309-8439",
+    "work": "E하고 F하기"
+  }, {
+    "name": "Hyman Glozman",
+    "image": 3,
+    "buseo": "3팀",
+    "jang": false,
+    "phone": "012-3290-9344",
+    "work": "G하고 H하기"
+  }, {
+    "name": "Emiline Guymer",
+    "image": 5,
+    "buseo": "3팀",
+    "jang": false,
+    "phone": "012-2380-9434",
+    "work": "I하고 J하기"
+  }, {
+    "name": "Abner Blackwell",
+    "image": 15,
+    "buseo": "2과",
+    "gwajang":true,
+    "jang": true,
+    "phone": "012-2903-8120",
+    "work": "A하고 B하기"
+  }, {
+    "name": "Kay Bille",
+    "image": 1,
+    "buseo": "1팀",
+    "jang": true,
+    "phone": "012-2183-2382",
+    "work": "K하고 L하기"
+  }, {
+    "name": "Jarrid Grzelczak",
+    "image": 3,
+    "buseo": "2팀",
+    "jang": true,
+    "phone": "012-2893-2390",
+    "work": "M하고 N하기"
+  }, {
+    "name": "Trueman Bernardini",
+    "image": 6,
+    "buseo": "3팀",
+    "jang": true,
+    "phone": "012-3790-1230",
+    "work": "O하고 P하기"
+  }, {
+    "name": "Osmund Kemell",
+    "image": 7,
+    "buseo": "1팀",
+    "jang": false,
+    "phone": "012-3480-0324",
+    "work": "Q하고 R하기"
+  }, {
+    "name": "Esme Erbain",
+    "image": 2,
+    "buseo": "1팀",
+    "jang": false,
+    "phone": "012-3480-3209",
+    "work": "S하고 T하기"
+  }, {
+    "name": "Mela Thraves",
+    "image": 4,
+    "buseo": "2팀",
+    "jang": false,
+    "phone": "012-2031-4597",
+    "work": "U하고 V하기"
+  }, {
+    "name": "Jeramie Stanion",
+    "image": 8,
+    "buseo": "2팀",
+    "jang": false,
+    "phone": "012-3948-2393",
+    "work": "W하고 X하기"
+  }, {
+    "name": "Marga Valenta",
+    "image": 10,
+    "buseo": "3팀",
+    "jang": false,
+    "phone": "012-0239-2398",
+    "work": "Y하고 Z하기"
+  }, {
+    "name": "Consolata Flannery",
+    "image": 12,
+    "buseo": "3팀",
+    "jang": false,
+    "phone": "012-3498-1093",
+    "work": "1하고 1하기"
+  }, {
+    "name": "Hartley Lippitt",
+    "image": 9,
+    "buseo": "3과",
+    "gwajang": true,
+    "jang": true,
+    "phone": "012-2903-8120",
+    "work": "A하고 B하기"
+  }, {
+    "name": "Ahmed Brotherton",
+    "image": 3,
+    "buseo": "1팀",
+    "jang": true,
+    "phone": "012-2903-8120",
+    "work": "A하고 B하기"
+  }, {
+    "name": "Mariellen Phetteplace",
+    "image": 1,
+    "buseo": "2팀",
+    "jang": true,
+    "phone": "012-2034-8903",
+    "work": "C하고 D하기"
+  }, {
+    "name": "Olympie MacFadyen",
+    "image": 2,
+    "buseo": "3팀",
+    "jang": true,
+    "phone": "012-2394-7303",
+    "work": "E하고 F하기"
+  }, {
+    "name": "Earl Tennock",
+    "image": 4,
+    "buseo": "1팀",
+    "jang": false,
+    "phone": "012-2384-3903",
+    "work": "G하고 H하기"
+  }, {
+    "name": "Galven Melliard",
+    "image": 5,
+    "buseo": "1팀",
+    "jang": false,
+    "phone": "012-3849-3033",
+    "work": "I하고 J하기"
+  }, {
+    "name": "Sawyer Trevaskiss",
+    "image": 6,
+    "buseo": "2팀",
+    "jang": false,
+    "phone": "012-2903-8903",
+    "work": "K하고 L하기"
+  }, {
+    "name": "Salomo Mirralls",
+    "image": 7,
+    "buseo": "2팀",
+    "jang": false,
+    "phone": "012-9052-3489",
+    "work": "M하고 N하기"
+  }, {
+    "name": "Sterne Frost",
+    "image": 8,
+    "buseo": "3팀",
+    "jang": false,
+    "phone": "012-3905-8309",
+    "work": "O하고 P하기"
+  }, {
+    "name": "Odele Pogosian",
+    "image": 10,
+    "buseo": "3팀",
+    "jang": false,
+    "phone": "012-2380-9434",
+    "work": "Q하고 R하기"
+  }
+]

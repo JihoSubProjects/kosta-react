@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,MAAM,CAAC;EACL,MAAM,EAAE,IAAI;EACZ,WAAW,EAAE,IAAI;EACjB,gBAAgB,EAAE,IAAI;EACtB,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,MAAM;EAClB,KAAK,EAAC,IACR;CAAC",
+    "sources": [
+        "FooterComp.scss"
+    ],
+    "names": [],
+    "file": "FooterComp.css"
+}
