@@ -1,14 +1,6 @@
 import axios from "axios"
 import { useEffect, useState } from "react"
 
-// interface Photos {
-//   page: number
-//   pages: number
-//   perpage: number
-//   total: number
-//   photo: Photo[]
-// }
-
 interface Photo {
   id: string
   owner: string
@@ -22,32 +14,26 @@ interface Photo {
 }
 
 export default function Gallery(props: { keyword: string }) {
-  const HOST = 'https://api.flickr.com/services/rest/?method=flickr.photos.search';
+  const API_HOST = 'https://api.flickr.com/services/rest/?method=flickr.photos.search';
   const API_KEY = '&api_key=636e1481b4f3c446d26b8eb6ebfe7127';
-  const OPTIONS = '&per_page=24&format=json&nojsoncallback=1';
-
-  const URL = (keyword: string) => {
-    return `${HOST}${API_KEY}&tags=${keyword}${OPTIONS}`;
-  }
+  const API_OPTIONS = '&per_page=24&format=json&nojsoncallback=1';
+  const SRC_HOST = 'https://live.staticflickr.com';
 
   const [photos, setPhotos] = useState<Array<Photo>>([]);
+
+  const url = (keyword: string) => `${API_HOST}${API_KEY}&tags=${keyword}${API_OPTIONS}`;
+  const src = (photo: Photo) => `${SRC_HOST}/${photo.server}/${photo.id}_${photo.secret}_q.jpg`;
 
   useEffect(() => {
     if (!props.keyword) return;
     axios
-      .get(URL(props.keyword))
+      .get(url(props.keyword))
       .then(({ data }) => setPhotos(data.photos.photo))
-      .catch(e => console.log(e));
+      .catch(e => console.error(e));
   }, [props.keyword])
 
   return <>
     <h2>Gallery</h2>
-    {
-      photos.map(photo => <img
-        key={photo.id}
-        alt={photo.title}
-        src={`https://live.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}_q.jpg`}
-      />)
-    }
+    {photos.map(photo => <img key={photo.id} alt={photo.title} src={src(photo)} />)}
   </>
 }
