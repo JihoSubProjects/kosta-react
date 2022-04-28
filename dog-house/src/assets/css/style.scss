@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+.cf::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+$globalWidth: 1080px;
+
+#wrap {
+
+  width: $globalWidth;
+  height: fit-content;
+  margin: 0 auto;
+
+  header {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+
+    background-color: #F46075;
+    background-image: url('../img/nav2.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+
+    h1 {
+      color: #FFF;
+    }
+  }
+
+  nav {
+
+    position: relative;
+
+    > ul {
+
+      margin: 0 auto;
+      background-color: #CCC;
+
+      > li {
+        width: $globalWidth / 4;
+        height: 50px;
+        // margin: auto 0;
+
+        float: left;
+        text-align: center;
+
+        // display: flex;
+        // align-items: center;
+
+        a {
+          // display: block;
+          // margin: auto 0;
+          font-size: 1.2rem;
+          line-height: 50px;
+          color: #000;
+          text-decoration: none;
+        }
+
+        ul {
+          position: absolute;
+          display: none;
+          background-color: #AAA;
+
+          li {
+            width: $globalWidth / 4;
+            text-align: center;
+            font-size: 1rem;
+
+            &:hover {
+              cursor: pointer;
+              background-color: #cc7;
+            }
+          }
+        }
+
+        &:hover {
+          ul {
+            display: block;
+          }
+        }
+      }
+    }
+
+  }
+
+  .content {
+
+    $quarter: $globalWidth / 4;
+
+    section,
+    aside {
+      float: left;
+      height: 600px;
+      h2 {
+        margin-top: 15px;
+        text-align: center;
+      }
+    }
+
+    section {
+      width: $quarter * 3;
+      background-color: #cc7;
+
+      article {
+        margin-top: 15px;
+        margin-left: 20px;
+        width: $quarter * 3 / 2 - 30px;
+        height: 250px;
+        float: left;
+        border: 1px solid black;
+        background-color: #FFF;
+        padding: 10px;
+
+        h3 {
+          margin: 10px 0;
+        }
+      }
+    }
+
+    aside {
+      background-color: #A63;
+      width: $quarter;
+      h2 {
+        color: #FFF;
+      }
+      img {
+        display: block;
+        margin: 30px auto;
+      }
+    }
+
+  }
+
+  footer {
+    width: 100%;
+    background-color: #000;
+    p {
+      text-align: center;
+      font-size: 1rem;
+      line-height: 50px;
+      color: #FFF;
+    }
+  }
+
+}

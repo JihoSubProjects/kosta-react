@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+.cf::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+#wrap {
+  width: 1080px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0 auto;
+}
+
+#wrap header {
+  width: 100%;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 20px;
+  background-color: #F46075;
+  background-image: url("../img/nav2.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+}
+
+#wrap header h1 {
+  color: #FFF;
+}
+
+#wrap nav {
+  position: relative;
+}
+
+#wrap nav > ul {
+  margin: 0 auto;
+  background-color: #CCC;
+}
+
+#wrap nav > ul > li {
+  width: 270px;
+  height: 50px;
+  float: left;
+  text-align: center;
+}
+
+#wrap nav > ul > li a {
+  font-size: 1.2rem;
+  line-height: 50px;
+  color: #000;
+  text-decoration: none;
+}
+
+#wrap nav > ul > li ul {
+  position: absolute;
+  display: none;
+  background-color: #AAA;
+}
+
+#wrap nav > ul > li ul li {
+  width: 270px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+#wrap nav > ul > li ul li:hover {
+  cursor: pointer;
+  background-color: #cc7;
+}
+
+#wrap nav > ul > li:hover ul {
+  display: block;
+}
+
+#wrap .content section,
+#wrap .content aside {
+  float: left;
+  height: 600px;
+}
+
+#wrap .content section h2,
+#wrap .content aside h2 {
+  margin-top: 15px;
+  text-align: center;
+}
+
+#wrap .content section {
+  width: 810px;
+  background-color: #cc7;
+}
+
+#wrap .content section article {
+  margin-top: 15px;
+  margin-left: 20px;
+  width: 375px;
+  height: 250px;
+  float: left;
+  border: 1px solid black;
+  background-color: #FFF;
+  padding: 10px;
+}
+
+#wrap .content section article h3 {
+  margin: 10px 0;
+}
+
+#wrap .content aside {
+  background-color: #A63;
+  width: 270px;
+}
+
+#wrap .content aside h2 {
+  color: #FFF;
+}
+
+#wrap .content aside img {
+  display: block;
+  margin: 30px auto;
+}
+
+#wrap footer {
+  width: 100%;
+  background-color: #000;
+}
+
+#wrap footer p {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 50px;
+  color: #FFF;
+}
+/*# sourceMappingURL=style.css.map */
