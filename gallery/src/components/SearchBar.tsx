@@ -1,31 +1,23 @@
-import React, { useRef, useState } from "react"
+import React, { useState } from "react"
 
-export default function SearchBar(
-  props: {keyword: string, search: (keyword: string) => void})
-{
+export default function SearchBar(props: {search: (keyword: string) => void}) {
 
-  const [keyword, setKeyword] = useState(props.keyword);
-  const inputRef = useRef<HTMLInputElement>(null);
+  const [keyword, setKeyword] = useState('');
 
-  const onChange = () => {
-    if (!inputRef.current) return;
-    setKeyword(inputRef.current.value);
+  const search = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      props.search(keyword);
+      e.currentTarget.value = '';
+    }
   }
 
-  const search = (e: React.FormEvent) => {
-    e.preventDefault();
-    setKeyword('');
-    props.search(keyword);
-  }
-
-  return <form className="search" onSubmit={search}>
+  return <div className="search">
     <input
       type="text"
-      ref={inputRef}
-      value={keyword}
-      onChange={onChange}
+      onChange={e => setKeyword(e.target.value)}
+      onKeyUp={search}
     />
-    <input type="submit" value="search" />
-  </form>
+  </div>
 
 }

@@ -6,14 +6,10 @@ import SearchBar from './components/SearchBar';
 export default function App() {
   const [keyword, setKeyword] = useState('');
 
-  const search = (k: string) => {
-    setKeyword(k);
-  }
-
   return (
     <div className="App">
       <h1>Snap Shot</h1>
-      <SearchBar keyword={keyword} search={search} />
+      <SearchBar search={setKeyword} />
       <Gallery keyword={keyword} />
     </div>
   );

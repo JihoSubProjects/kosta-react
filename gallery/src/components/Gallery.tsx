@@ -30,27 +30,24 @@ export default function Gallery(props: { keyword: string }) {
     return `${HOST}${API_KEY}&tags=${keyword}${OPTIONS}`;
   }
 
-  const image = (photo: Photo) => {
-    return <img src={`https://live.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}_q.jpg`} alt={photo.title} />
-  }
-
   const [photos, setPhotos] = useState<Array<Photo>>([]);
 
   useEffect(() => {
     if (!props.keyword) return;
     axios
       .get(URL(props.keyword))
-      .then(({ data }) => {
-        console.log(data);
-        setPhotos(data.photos.photo);
-      })
+      .then(({ data }) => setPhotos(data.photos.photo))
       .catch(e => console.log(e));
   }, [props.keyword])
 
   return <>
     <h2>Gallery</h2>
     {
-      photos.map(photo => image(photo))
+      photos.map(photo => <img
+        key={photo.id}
+        alt={photo.title}
+        src={`https://live.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}_q.jpg`}
+      />)
     }
   </>
 }
