@@ -1,0 +1,16 @@
+.App {
+  width: 80vw;
+  margin: 20vh auto;
+
+  h1 {
+    text-align: center;
+  }
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 5vh;
+}
