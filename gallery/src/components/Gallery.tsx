@@ -31,8 +31,7 @@ export default function Gallery(props: { keyword: string }) {
   }
 
   const image = (photo: Photo) => {
-    // `https://live.staticflickr.com/${server}/${id}_${secret}_${size-suffix}.jpg`
-    return <img src={`https://live.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}`} />
+    return <img src={`https://live.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}_q.jpg`} alt={photo.title} />
   }
 
   const [photos, setPhotos] = useState<Array<Photo>>([]);
@@ -42,7 +41,8 @@ export default function Gallery(props: { keyword: string }) {
     axios
       .get(URL(props.keyword))
       .then(({ data }) => {
-        setPhotos(data.photo.photos);
+        console.log(data);
+        setPhotos(data.photos.photo);
       })
       .catch(e => console.log(e));
   }, [props.keyword])
