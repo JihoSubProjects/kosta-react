@@ -1,0 +1,6 @@
+.loading{
+  display:none;
+  &.on{
+    display:block;
+  }
+}
