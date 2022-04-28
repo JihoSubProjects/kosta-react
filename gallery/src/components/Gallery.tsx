@@ -34,6 +34,7 @@ export default function Gallery(props: { keyword: string }) {
 
   return <>
     <h2>Gallery</h2>
+    <h4>{props.keyword && `keyword: ${props.keyword}`}</h4>
     {photos.map(photo => <img key={photo.id} alt={photo.title} src={src(photo)} />)}
   </>
 }
