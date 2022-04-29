@@ -15,6 +15,8 @@ import EffectClassy from './effect/Classy';
 import EffectHooky from './effect/Hooky';
 import MemoClassy from './memo/Classy';
 import MemoHooky from './memo/Hooky';
+import ContextClassy from './context/Classy';
+import ContextHooky from './context/Hooky';
 
 function App() {
   return <BrowserRouter>
@@ -32,6 +34,8 @@ function App() {
         <Route path='/effect-hooky' element={<EffectHooky />} />
         <Route path='/memo-classy' element={<MemoClassy />} />
         <Route path='/memo-hooky' element={<MemoHooky />} />
+        <Route path='/context-classy' element={<ContextClassy />} />
+        <Route path='/context-hooky' element={<ContextHooky />} />
         <Route path='*' element={<Error404 />} />
       </Routes>
     </main>

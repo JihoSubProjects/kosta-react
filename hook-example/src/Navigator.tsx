@@ -18,6 +18,8 @@ export default function Navigator(){
         <li><Link to="/effect-hooky">Effect 함수형</Link></li>
         <li><Link to="/memo-classy">Memo 클래스형</Link></li>
         <li><Link to="/memo-hooky">Memo 함수형</Link></li>
+        <li><Link to="/context-classy">Context 클래스형</Link></li>
+        <li><Link to="/context-hooky">Context 함수형</Link></li>
       </ul>
     </div>
   )
